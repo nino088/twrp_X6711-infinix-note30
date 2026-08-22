@@ -15,7 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_DEVICE := X6711
-PRODUCT_NAME := twrp_X6711
+PRODUCT_NAME := pb_X6711
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6711
 PRODUCT_MANUFACTURER := infinix
