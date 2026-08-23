@@ -188,24 +188,10 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 # Version
 TW_DEVICE_VERSION := X6711_NINO
 
-#SHRP-specific lines
-SHRP_PATH := device/infinix/X6711
-SHRP_MAINTAINER := NINO
-SHRP_DEVICE_CODE := X6711
-SHRP_OFFICIAL := true
-SHRP_INTERNAL := /sdcard
-SHRP_EXTERNAL := /sdcard1
-SHRP_OTG := /usb_otg
-SHRP_REC_TYPE := SAR
-SHRP_DEVICE_TYPE := A/B
-SHRP_EXPRESS := true
-SHRP_DARK := true
-SHRP_EXPRESS_USE_DATA := true
-SHRP_FLASH := 1
-SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/class/torch/torch/torch_level
-SHRP_FLASH_MAX_BRIGHTNESS := 2
-SHRP_REC := /dev/block/platform/bootdevice/by-name/vendor_boot
-SHRP_NOTCH := true
-SHRP_STATUSBAR_RIGHT_PADDING := 20
-SHRP_STATUSBAR_LEFT_PADDING := 20
+# Orangefox Settings 
+OF_FLASHLIGHT_ENABLE := 1
+OF_FL_PATH1 := /sys/class/torch/torch/torch_level
+OF_NO_REFLASH_CURRENT_ORANGEFOX := 1
+
+# Data
+OF_PREPARE_DATA_MEDIA_EARLY := 1
