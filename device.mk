@@ -27,13 +27,6 @@ PRODUCT_PACKAGES += \
      bootctrl.mt6833 \
      bootctrl.mt6833.recovery
 
-# Vibrator modules
-TARGET_RECOVERY_DEVICE_MODULES += \
-    vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
-
-RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
-
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
