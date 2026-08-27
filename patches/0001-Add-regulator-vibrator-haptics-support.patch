@@ -4,8 +4,8 @@
  #define VIBRATOR_TIMEOUT_FILE	"/sys/class/timed_output/vibrator/enable"
  #define VIBRATOR_TIME_MS    50
 
-+#define LEDS_VIBRATOR_BRIGHTNESS_FILE	"/sys/class/leds/vibrator/brightness"
-+#define LEDS_VIBRATOR_TRIGGER_FILE	"/sys/class/leds/vibrator/trigger"
++#define LEDS_VIBRATOR_BRIGHTNESS_FILE	"/sys/class/leds/vibrator_single/brightness"
++#define LEDS_VIBRATOR_TRIGGER_FILE	"/sys/class/leds/vibrator_single/trigger"
 
  #define LEDS_HAPTICS_DURATION_FILE	"/sys/class/leds/vibrator_single/duration"
  #define LEDS_HAPTICS_ACTIVATE_FILE	"/sys/class/leds/vibrator_single/activate"
