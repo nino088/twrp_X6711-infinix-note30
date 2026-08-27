@@ -27,6 +27,13 @@ PRODUCT_PACKAGES += \
      bootctrl.mt6833 \
      bootctrl.mt6833.recovery
 
+# Vibrator modules
+TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hardware.vibrator-V2-ndk.so
+
+RECOVERY_LIBRARY_SOURCE_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator-V2-ndk.so
+
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
