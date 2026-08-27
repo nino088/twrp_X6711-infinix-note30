@@ -29,10 +29,10 @@ PRODUCT_PACKAGES += \
 
 # Vibrator modules
 TARGET_RECOVERY_DEVICE_MODULES += \
-    android.hardware.vibrator-V2-ndk.so
+    vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator-V2-ndk.so
+    $(TARGET_OUT_SHARED_LIBRARIES)/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
